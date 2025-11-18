@@ -72,7 +72,7 @@ class InteractiveList {
         this.items.push({
             text: text,
             id: Date.now(),
-            hasIcon: Math.random() > 0.5 // Simula a adição aleatória do PNG
+            hasIcon: Math.random() > 0.5 
         });
 
         this.saveToLocalStorage();
@@ -238,5 +238,5 @@ class InteractiveList {
     }
 }
 
-// Inicializar a aplicação
+// Inicializar
 const interactiveList = new InteractiveList();
